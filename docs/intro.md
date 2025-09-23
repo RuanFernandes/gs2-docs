@@ -30,11 +30,31 @@ GScript2 is the core scripting language for GraalOnline. It enables developers t
 -   Custom systems and gameplay features
 -   Dynamic and persistent content
 
+### Example GScript2 Code
+
+Here's a simple example of GScript2 syntax:
+
+```gs2
+// NPC script example
+function onCreated() {
+    this.nick = "Friendly NPC";
+}
+
+function onPlayerChats() {
+    if (player.chat == "hello") {
+        this.chat = "Hi there " @ player.nick @ "!";
+    }
+}
+
+function onPlayerEnters() {
+    this.chat = "Welcome " @ player.nick @ "!";
+}
+```
+
 ## Getting Help
 
 If you need support beyond this guide:
 
--   **Community Support**: Visit the [NPC Scripting section](https://forums.graalonline.com/forums/) on the GraalOnline Forums
 -   **Direct Assistance**: Join the [Graalians Official Discord](https://discord.gg/graalians) and ask in the scripting channel
 
 The community is active and supportive for both beginners and advanced developers.
