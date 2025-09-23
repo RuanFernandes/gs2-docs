@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'GraalScript2 Docs',
-    tagline: 'GS2 is cool',
+    title: 'Graal Development Guide',
+    tagline: 'GS2 is cool!',
     favicon: 'img/rcicon.png',
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -55,7 +55,7 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'GraalScript2',
+            title: 'Graal Development',
             logo: {
                 alt: 'GraalScript2 Logo',
                 src: 'img/rcicon.png',
