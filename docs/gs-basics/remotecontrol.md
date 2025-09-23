@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Remote Control
+# 1 - Remote Control
 
 ![Remote Control Overview](/img/remotecontrol.png)
 
