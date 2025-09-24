@@ -27,7 +27,7 @@ export default function prismIncludeLanguages(PrismObject) {
             /\b(?:break|case|continue|default|do|else|elseif|for|if|in|return|switch|while|with|import|public|private|const|enum|function|new|datablock)\b/,
         constant: /\b(?:true|false|nil|null|NULL|pi|timevar2)\b/,
         variable:
-            /\b(?:this|thiso|temp|server|serverr|client|clientr|player|name)\b/,
+            /\b(?:this|thiso|temp|server|serverr|client|clientr|player|name|serveroptions)\b/,
         function: /\b[a-zA-Z_][a-zA-Z0-9_]*(?=\s*\()/,
         operator: /[-~^@\/%|=+*!?&<>]/,
         punctuation: /[{}();:,.\[\]]/,
